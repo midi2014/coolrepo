@@ -22,17 +22,7 @@ public class BestClass {
 		EndingPoint.exit();
 	}
 	
-	private static String youBetterGiveMeSomeLongitude() {
-		return "25.297699"; 
-	}
-
-	private static String youBetterGiveMeSomeLatitude() {
-		return "54.678422";
-	}
-	
 	public static void myFirstRecursion() {
-		youBetterGiveMeSomeLongitude();
-		youBetterGiveMeSomeLatitude();
 		omgIAmSoCool();
 	}
 	
