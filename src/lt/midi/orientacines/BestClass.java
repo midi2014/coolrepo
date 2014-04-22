@@ -17,13 +17,22 @@ public class BestClass {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 		myFirtUltimateCoolMethodWhichWillRockYourWorld();
+		howMuch();
 		myFirstRecursion();
 		EndingPoint.exit();
 	}
 	
-	
+	private static String youBetterGiveMeSomeLongitude() {
+		return "25.297699"; 
+	}
 
+	private static String youBetterGiveMeSomeLatitude() {
+		return "54.678422";
+	}
+	
 	public static void myFirstRecursion() {
+		youBetterGiveMeSomeLongitude();
+		youBetterGiveMeSomeLatitude();
 		omgIAmSoCool();
 	}
 	
@@ -33,6 +42,10 @@ public class BestClass {
 
 	public static void myFirtUltimateCoolMethodWhichWillRockYourWorld() {
 		Rock.yourWorld();
+	}
+	
+	private static int howMuch() {
+		return (byte) + (char) - (int) + (long) - 1;
 	}
 	
 }
