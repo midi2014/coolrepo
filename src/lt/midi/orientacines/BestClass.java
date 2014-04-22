@@ -15,11 +15,19 @@ public class BestClass {
     }
 	
 	public static void main(String[] args) {
-		System.out.println("Hello World");
-		myFirtUltimateCoolMethodWhichWillRockYourWorld();
-		howMuch();
-		myFirstRecursion();
-		EndingPoint.exit();
+		try {
+			System.out.println("Hello World");
+			myFirtUltimateCoolMethodWhichWillRockYourWorld();
+			howMuch();
+			myFirstRecursion();
+		} finally { //should never happen
+			commitHistory();
+			EndingPoint.exit();
+		}
+	}
+	
+	public static String commitHistory() {
+		return "9c7ffb4d64c2dd6c928ca5a11127883f3a273e04";
 	}
 	
 	public static void myFirstRecursion() {
